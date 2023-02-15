@@ -46,9 +46,6 @@ async def kalan(ctx):
 
 
 
-
-
-
 @Bot.command(name="vakit")
 async def time(ctx):
     await ctx.send(f'tam tarih:{date}')
